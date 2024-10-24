@@ -1,0 +1,16 @@
+.user-card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 5%;
+  padding: 1rem 0rem;
+}
+
+
+@media(min-width: 768px) {
+  .user-card {
+    width: 50%;
+  }
+}

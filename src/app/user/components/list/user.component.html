@@ -1,0 +1,7 @@
+<input type="text" [formControl]="userControl">
+<ul *ngFor="let user of filteredUsers | async">
+  <li class="user-card">
+    <span>{{user.name}}</span>
+    <span>{{user.email}}</span>
+  </li>
+</ul>
